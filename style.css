@@ -1,0 +1,37 @@
+:root{
+    --azul-oscuro: #1b2a5e;
+    --azul-medio: #4cbae7;
+    --azul-claro: #a9d8f5;
+    --fondo: #f5f5f3;
+    --blanco: #ffffff;
+    --texto: #22252e;
+    --texto-suave: #565b6b;
+
+    --fuente: 'Poppins', system-ui,
+    -apple-system, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fuente);
+    color: var(--texto);
+    background-color: var(--fondo);
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+h1, h2, h3{
+    color: var(--azul-oscuro);
+    line-height: 1.25;
+}
+
